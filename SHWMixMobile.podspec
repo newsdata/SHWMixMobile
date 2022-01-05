@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWMixMobile'
-  s.version          = '0.2.0'
+  s.version          = '0.2.6'
   s.summary          = '新华智云 mix 引擎 iOS 端.'
   s.description      = <<-DESC
                         mix: 随心所欲的视频编辑引擎,新华智云 mix 引擎 iOS 端
