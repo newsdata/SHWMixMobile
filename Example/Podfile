@@ -1,0 +1,13 @@
+# use_frameworks!
+
+
+platform :ios, '10.0'
+
+target 'SHWMixMobile_Example' do
+  pod 'SHWMixMobile', :path => '../'
+
+  target 'SHWMixMobile_Tests' do
+    inherit! :search_paths
+
+  end
+end
