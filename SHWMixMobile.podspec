@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWMixMobile'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = '新华智云 mix 引擎 iOS 端.'
   s.description      = <<-DESC
                         mix: 随心所欲的视频编辑引擎,新华智云 mix 引擎 iOS 端
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yehot' => 'yehao@shuwen.com' }
   s.source           = { :git => 'https://github.com/newsdata/SHWMixMobile.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.subspec 'x264' do |ss|
     ss.source_files        = 'SHWMixMobile/mix/x264/include/**/*.h'
